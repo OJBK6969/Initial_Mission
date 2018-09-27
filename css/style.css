@@ -1,0 +1,77 @@
+/*
+author: Your name;
+filename: style.css;
+Date: September 24, 2018;
+*/
+
+
+nav {
+    font-size:2rem; /* Adjust the font size into 2rem */
+    background-color:hsla(189, 85%, 80%, 0.5);/* Adjust the background color according to above hsl*/
+    padding: 1rem;/* Adjust the padding to 1rem*/
+    box-shadow: 0px 20px hsla(186, 100%, 50%, 1);/*Add box shadow on it with certain color, 20 length,0 width*/
+}
+
+.padding1 {
+    padding-left:50px;/* keep 50px empty distance from left neighbor*/
+}
+.takeOffUnderline{
+    padding-left:50px;
+    text-decoration-line: none;
+}/*keep 50px empty distance from left neighbor
+    take off the text underline*/
+
+header {
+    background-image:url("https://picsum.photos/g/2000/800/?random"); /*Set up a background pic with grey filter*/
+    background-size: cover; /* Make the pic cover the whole background*/
+    padding: 1.25rem;/* set up genenral padding with header for 1.25rem*/
+    margin-top: 2rem;/* Keep 2rem distance from top with this header*/
+}
+
+h1{
+    font-size: 4rem;/* Turn this h1's font size into 4rem*/
+    color:hsla(56, 40%, 65%, 1);/* Switch this h1's color to above hsl*/
+     font-style:fantasy;/*Set the font style into fantasy*/
+    text-shadow:2px 2px hsla(170, 100%, 50%, 0.5);/* Offer text shadow for h1 with above hsl color, and length and width 2px */
+}
+
+h2{
+    font-size: 3rem;/*Turn h2's font size into 3rem*/
+    color:hsla(64, 20%, 34%, 1);/* Change the color to above hsl for h2 */
+     font-style: italic;/*Set the font-style into italic with h2 */
+    text-shadow: 2px 2px hsla(170, 100%, 50%, 0.5);/*Offer text shadow for h2 with above hsl color, and length and width 2px*/
+}
+
+h3{
+    font-size: 3rem;/*Turn h3's font size into 3rem*/
+    color:hsla(270, 100%, 50%, 1);/* Change the color to above hsl for h3 */
+    font-family: 'Spirax', cursive;/* Provide above font to h3*/
+    text-align: left;/*Make the text align to the left*/
+    font-weight: bolder;/*Adjust the font-weight to be bolder*/
+    text-decoration: underline;/* Generate a underline for h3*/
+    text-decoration-color: hsla(77, 100%, 50%, 0.5);/*Change the  text color to above hsl*/
+    padding-left:10px;/* keep 10px from left side*/
+}
+
+.fontM {
+    font-size:1rem;/*Change the font size into 1rem*/
+    font-style: normal;/* keep the font style just normal*/
+    font-weight: 100;/*Adjust the font-weight to 100*/
+    text-align: left;  /* keep all the text to the left side*/
+    padding-bottom:20px;/*Creat a 20px distance with main body from bottom*/
+    padding-left: 10px;/*Generate a 10px distance with main body from left side*/
+}
+
+h4 {
+    font-size: 1.5rem;/* Set the font size into 1.5rem*/
+    font-stretch: expanded;/* Expanded the font shape*/
+    font-family: 'Chicle', cursive;/* Set this font style into above descripton */
+    
+}
+
+ul{
+    font-size:1rem;/* Turn the font size just into 1rem */
+    font-weight: 500;/*Make the font weight into value = 500 */
+    font-style:italic;/* Change the font style into italic */
+    padding-bottom: 200px;/* Make a 200px distance from bottom with the main body*/
+}
